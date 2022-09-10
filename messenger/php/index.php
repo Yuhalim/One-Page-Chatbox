@@ -48,7 +48,7 @@ if(isset($_POST['register'])){
     <title>Registeration Page</title>
     <link rel="stylesheet" href="../css/register.css">
 </head>
-<body class="home">
+<body>
     <form method="post">
         <input type="text" name="fname" placeholder="Enter your first name" class="fname">
         <br><br>

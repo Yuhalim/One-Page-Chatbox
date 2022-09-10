@@ -20,22 +20,20 @@ $mechat="";
     <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
-    <div class="chat">
-        <form class="friend" action="chat.php" method="post">
-            <p>friend:</p>
-            <textarea name="ftext" placeholder="Message"></textarea>  
-            <br>
-            <button name="send">send</button> 
+    <form class="friend" action="chat.php" method="post">
+        <p>friend:</p>
+        <textarea name="ftext" placeholder="Message"></textarea>  
+        <br>
+        <input type="submit" value="send" name="send"> 
+    </form>
 
-        </form>
-        <form class="you" action="chat.php" method="get">
-            <p>me:</p>
-            <textarea name="metext" placeholder="Message"></textarea>  
-            <br>
-            <button name="send">send</button> 
-
-        </form>
-    </div>
+    <form class="you" action="chat.php" method="get">
+        <p>me:</p>
+        <textarea name="metext" placeholder="Message"></textarea>  
+        <br>
+        <input type="submit" value="send" name="send"> 
+    </form>
+    
     <div>
         <?php
             echo $fchat;
@@ -47,7 +45,7 @@ $mechat="";
         ?>
     </div>
     <form action="login.php">           
-        <button class="log">log out</button>
+        <input  value="Log out" class="log">
     </form>
 </body>
 </html>

@@ -8,10 +8,10 @@ input{
     border:1px solid #ccc;
     text-align:center;
     border-radius: 5px;
-    color: blue;
+    color: red;
 }
 .register{
-    background-color:green;
+    background-color:red;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -24,17 +24,18 @@ input{
     float: right;
 }
 .you p{
-    color: green;
+    color: red;
     margin-bottom: 0px;
     font-family: cursive;
     font-weight: bold;
 }
-.you button{
+.you input{
     margin-top: 10px;
-    background-color: green;
+    background-color: red;
     color: #fff;
     width: 80px;
     height: 35px;
+    border-style: hidden;
     border-radius: 8px;
     cursor: pointer;
 
@@ -47,45 +48,49 @@ input{
     text-align: left;
 }
 .friend p{
-    color: green;
+    color: red;
     margin-bottom: 0px;
     font-family: cursive;
     font-weight: bold;
 }
-.friend button{
+.friend input{
     margin-top: 10px;
-    background-color: green;
+    background-color: red;
     color: #fff;
     width: 80px;
     height: 35px;
+    border-style: hidden;
     border-radius: 8px;
     cursor: pointer;
 
 }
 textarea{
-    border: 2px solid black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 .log{
-    margin-top: 10px;
-    background-color: green;
+    margin-top: 300px;
+    background-color: red;
     color: #fff;
     width: 80px;
+    border-style: hidden;
     height: 35px;
     align-items: right;
     border-radius: 8px;
     cursor: pointer;
 }
-.home{
-    background-image: url(images/top2.jpg);
+body{
+    background-image: url(../images/top3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     text-align: center;
+    margin-top: 150px;
 }
 .error{
-    color: green;
+    color: white;
     font-family: cursive;
 }
-.chat{
-    display: flex;
-}
+
 .mechat{
     text-align: right;
     color: green;
